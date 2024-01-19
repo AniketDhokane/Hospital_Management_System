@@ -25,5 +25,39 @@ public class Patient {
         this.room=room;
     }
 
+    public String getPid() {
+        return pid;
+    }
 
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public Long getMobNo() {
+        return mobNo;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public String getDisease() {
+        return disease;
+    }
+
+    public Doctor getDoctor() {
+        return doctor;
+    }
+
+    public Room getRoom() {
+        return room;
+    }
 }
