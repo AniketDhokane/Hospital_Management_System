@@ -8,7 +8,7 @@ public class PatientDatabase {
 
     HashMap<String, Patient> patientDB;
 
-    PatientDatabase(){
+   public PatientDatabase(){
         this.patientDB= new HashMap<>();
 
     }
@@ -18,6 +18,10 @@ public class PatientDatabase {
         String pId=obj.getPid();
         patientDB.put(pId,obj);
 
+    }
+
+    public int getTotalPatientCount(){
+       return patientDB.size();
     }
     public Patient getPatient(String pId){
          return patientDB.get(pId);
